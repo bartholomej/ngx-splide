@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng build ngx-splide --watch",
+    "start:demo": "ng serve",
     "build": "ng build",
+    "build:demo": "ng build ngx-splide-app",
     "postbuild": "cp README.md dist/ngx-splide/",
     "test": "ng test",
     "lint": "ng lint",
@@ -21,7 +23,7 @@
     "@angular/platform-browser-dynamic": "^14.2.12",
     "@angular/router": "^14.2.12",
     "@splidejs/splide": "^2.4.14",
-    "bootstrap": "^5.0.0-beta3",
+    "bootstrap": "^5.2.3",
     "rxjs": "~6.6.3",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
@@ -34,7 +36,6 @@
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.8",
     "@types/node": "~14.14.2",
-    "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.4.1",

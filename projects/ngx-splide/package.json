@@ -18,8 +18,8 @@
         "tslib": "^2.0.0"
     },
     "peerDependencies": {
-        "@splidejs/splide": "^2.4.14",
-        "@angular/common": "*",
-        "@angular/core": "*"
+        "@splidejs/splide": "^4.1.4",
+        "@angular/common": "14",
+        "@angular/core": "14"
     }
 }
