@@ -19,7 +19,7 @@
     },
     "peerDependencies": {
         "@splidejs/splide": "^4.1.4",
-        "@angular/common": "14",
-        "@angular/core": "14"
+        "@angular/common": ">=14 <16",
+        "@angular/core": ">=14 <16"
     }
 }
