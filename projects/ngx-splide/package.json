@@ -1,6 +1,6 @@
 {
-    "name": "ngx-splide",
-    "version": "0.0.16",
+    "name": "@bartholomej/ngx-splide",
+    "version": "0.1.1",
     "description": "Splide.js integration with angular",
     "keywords": [
         "Splide",
