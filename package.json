@@ -5,14 +5,15 @@
     "ng": "ng",
     "start": "ng build ngx-splide --watch",
     "start:demo": "ng serve",
-    "build": "ng build",
+    "build": "ng build ngx-splide --configuration production",
     "build:demo": "ng build ngx-splide-app",
     "postbuild": "cp README.md dist/ngx-splide/",
+    "publish:npm": "yarn build && cd dist/ngx-splide && npm publish --access public",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^14.2.12",
     "@angular/common": "^14.2.12",
